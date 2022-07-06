@@ -7,5 +7,6 @@ export default props =>
       value={props.currentTodo}
       onChange={props.handleNewTodoChange}
       className="new-todo"
+      autoFocus
       placeholder="What needs to be done?"/>
   </form>
